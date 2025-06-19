@@ -1,0 +1,26 @@
+Constructor
+
+
+#include<iostream>
+using namespace std;
+class teacher{
+    public:
+teacher(){
+    dept="computer science";
+}
+public:
+
+string dept;
+string name;
+string subject;
+
+};
+int main(){
+teacher t1;
+t1.name=" mohit";
+t1.subject="c++";
+
+cout<<t1.name<<endl;
+cout<<t1.subject<<endl;
+cout<<t1.dept;
+}
